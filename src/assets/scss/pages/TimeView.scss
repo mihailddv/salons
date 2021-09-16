@@ -1,0 +1,29 @@
+@import '../component.scss';
+
+.content {
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+
+  &Date {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+  }
+}
+
+.calendar {
+  width: 100%;
+  margin-bottom: 16px;
+
+  &Title {
+    margin-bottom: 4px;
+  }
+}
+
+@include desktop {
+  .content {
+    grid-template-columns: 400px 400px;
+    align-items: start;
+  }
+}

@@ -1,0 +1,42 @@
+@import '../component.scss';
+
+.container {
+  margin: 0 auto 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: center;
+  gap: 5px;
+  width: 300px;
+}
+
+.item {
+  &Content {
+    @include flex-center;
+
+    height: 36px;
+    padding: 5px;
+    border: 1px solid $primary-color;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  &Radio {
+    display: none;
+
+    &:checked {
+      &~.itemContent {
+        color: #fff;
+        background: $primary-color;
+      }
+    }
+
+    &:disabled {
+      &~.itemContent {
+        background: #ccc;
+        border-color: #ccc;
+        cursor: not-allowed;
+      }
+    }
+  }
+}

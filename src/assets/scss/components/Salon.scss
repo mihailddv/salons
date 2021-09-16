@@ -1,0 +1,30 @@
+@import '../component.scss';
+
+.address {
+  margin-bottom: 16px;
+}
+
+.workTime {
+  &__title {
+    margin-bottom: 4px;
+  }
+
+  &__table {
+    margin-bottom: 16px;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    tr {
+      td:first-child {
+        min-width: 60px;
+      }
+    }
+  }
+}
+
+@include desktop() {
+  .container {
+    margin: 0;
+    width: initial;
+  }
+}

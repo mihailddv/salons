@@ -1,0 +1,50 @@
+[
+  {
+    "avialable": true,
+    "hour": "9:00"
+  },
+  {
+    "avialable": true,
+    "hour": "10:00"
+  },
+  {
+    "avialable": true,
+    "hour": "11:00"
+  },
+  {
+    "avialable": false,
+    "hour": "12:00"
+  },
+  {
+    "avialable": true,
+    "hour": "13:00"
+  },
+  {
+    "avialable": false,
+    "hour": "14:00"
+  },
+  {
+    "avialable": true,
+    "hour": "15:00"
+  },
+  {
+    "avialable": true,
+    "hour": "16:00"
+  },
+  {
+    "avialable": true,
+    "hour": "17:00"
+  },
+  {
+    "avialable": false,
+    "hour": "18:00"
+  },
+  {
+    "avialable": true,
+    "hour": "19:00"
+  },
+  {
+    "avialable": true,
+    "hour": "20:00"
+  }
+]

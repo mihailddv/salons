@@ -1,0 +1,30 @@
+@import '../component.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  padding: 0 16px;
+  color: #fff;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: $secondary-color;
+  border-color: $secondary-color;
+  letter-spacing: 0.09em;
+  cursor: pointer;
+  transition: .3s;
+  box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+
+  &:hover {
+    background: darken($secondary-color, 20%);
+  }
+}
+
+.danger {
+  background: $danger-color;
+
+  &:hover {
+    background: darken($danger-color, 10%);
+  }
+}
